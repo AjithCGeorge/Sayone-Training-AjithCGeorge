@@ -1,0 +1,70 @@
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #00FFFF;
+}
+</style>
+</head>
+<body>
+
+<h2 align="center">HTML Table</h2>
+
+<table>
+  <tr bgcolor="green">
+    <th style="color:white;">Contact Name</th>
+    <th style="color:white;">City</th>
+    <th style="color:white;">Country</th>
+    <th style="color:white;">Is Promoted</th>
+  </tr>
+  <tr>
+    <td>John Quincy</td>
+    <td>Berlin</td>
+    <td><img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/1200px-Flag_of_Germany.svg.png" height="50" width="75">Germany</td>
+    <td><input type="checkbox"></td>
+  </tr>
+  <tr>
+    <td>Ace Abel</td>
+    <td>Tirana</td>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/3/36/Flag_of_Albania.svg" height="50" width="75">Albania</td>
+    <td><input type="checkbox"></td>
+  </tr>
+  <tr>
+    <td>Creighton  James</td>
+    <td>Baku</td>
+    <td><img src="data:image/png;base64,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" height="50" width="75">Azerbaijan</td>
+    <td><input type="checkbox"></td>
+  </tr>
+  <tr>
+    <td>Abagnale Abelson</td>
+    <td>Luanda</td>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Flag_of_Angola.svg" height="50" width="75">Angola</td>
+    <td><input type="checkbox"></td>
+  </tr>
+  <tr>
+    <td>Jane  Scott</td>
+    <td>Vienna</td>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Austria.svg/255px-Flag_of_Austria.svg.png" height="50" width="75">Austria</td>
+    <td><input type="checkbox"></td>
+  </tr>
+  <tr>
+    <td>Abigail Abel</td>
+    <td>Bridgetown</td>
+    <td><img src="https://www.mrflag.com/wp-content/uploads/2018/11/Barbados-1.png" height="50" width="75">Barbados</td>
+    <td><input type="checkbox"></td>
+  </tr>
+</table>
+
+</body>
+</html>
